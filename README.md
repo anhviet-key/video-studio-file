@@ -1,4 +1,4 @@
-﻿# Video Studio PRO Update Files
+# Video Studio PRO Update Files
 
 This repository only hosts public update manifests and release binaries for Video Studio PRO.
 Source code and private backend files are intentionally not stored here.

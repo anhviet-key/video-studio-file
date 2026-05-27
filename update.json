@@ -1,60 +1,60 @@
-﻿{
+{
     "version":  "1.0.1",
-    "releaseDate":  "2026-05-27T08:08:31.4329348Z",
-    "notes":  "Video Studio PRO 1.0.1 update channel moved to video-studio-file. Includes Linux startup compatibility fixes and multi-format Linux packages.",
+    "releaseDate":  "2026-05-27T15:22:09.7702637Z",
+    "notes":  "Video Studio PRO 1.0.1 update channel moved to video-studio-file. Linux AppImage startup fix prevents Electron child processes from inheriting Node mode and disables fragile Linux utility-process sandbox paths.",
     "windows":  {
                     "fileName":  "Video-Studio-PRO-Setup-1.0.1.exe",
                     "url":  "https://github.com/anhviet-key/video-studio-file/releases/download/v1.0.1/Video-Studio-PRO-Setup-1.0.1.exe",
-                    "sha256":  "f27fb9f813818d8bce1aff051f85445b8972c7d0933cfeec970c2670d07db30c",
-                    "size":  118584743
+                    "sha256":  "5a324cd398edb28fcb21819a3731f16d4677dfbd64dd160f7614ed55096bf9d3",
+                    "size":  118585430
                 },
     "linux":  {
                   "fileName":  "Video-Studio-PRO-Linux-latest.AppImage",
                   "url":  "https://github.com/anhviet-key/video-studio-file/releases/download/v1.0.1/Video-Studio-PRO-Linux-latest.AppImage",
-                  "sha256":  "4c91a91a79288fa0cc1210bf6005df4fd9fd1e3b76ff2092a7e50dc3504eb12a",
-                  "size":  146633535
+                  "sha256":  "1637dac706e6a6e08990b911d83302a466121b5ebd044b50f02961f6cb277857",
+                  "size":  146637678
               },
     "assets":  {
                    "windows":  {
                                    "fileName":  "Video-Studio-PRO-Setup-1.0.1.exe",
                                    "url":  "https://github.com/anhviet-key/video-studio-file/releases/download/v1.0.1/Video-Studio-PRO-Setup-1.0.1.exe",
-                                   "sha256":  "f27fb9f813818d8bce1aff051f85445b8972c7d0933cfeec970c2670d07db30c",
-                                   "size":  118584743
+                                   "sha256":  "5a324cd398edb28fcb21819a3731f16d4677dfbd64dd160f7614ed55096bf9d3",
+                                   "size":  118585430
                                },
                    "windowsBlockmap":  {
                                            "fileName":  "Video-Studio-PRO-Setup-1.0.1.exe.blockmap",
                                            "url":  "https://github.com/anhviet-key/video-studio-file/releases/download/v1.0.1/Video-Studio-PRO-Setup-1.0.1.exe.blockmap",
-                                           "sha256":  "790f0850df692c06e87f4b642eb8e25b1c2fc995d689fbca6d3bb1d2e2ad5ace",
-                                           "size":  124483
+                                           "sha256":  "d91b5bba52d9868206aac5ae1ef0fe9e2fe542c9a61231f7fa0965d6b88eb2bc",
+                                           "size":  124303
                                        },
                    "linux":  {
                                  "fileName":  "Video-Studio-PRO-Linux-latest.AppImage",
                                  "url":  "https://github.com/anhviet-key/video-studio-file/releases/download/v1.0.1/Video-Studio-PRO-Linux-latest.AppImage",
-                                 "sha256":  "4c91a91a79288fa0cc1210bf6005df4fd9fd1e3b76ff2092a7e50dc3504eb12a",
-                                 "size":  146633535
+                                 "sha256":  "1637dac706e6a6e08990b911d83302a466121b5ebd044b50f02961f6cb277857",
+                                 "size":  146637678
                              },
                    "linuxDeb":  {
                                     "fileName":  "Video-Studio-PRO-Linux-latest.deb",
                                     "url":  "https://github.com/anhviet-key/video-studio-file/releases/download/v1.0.1/Video-Studio-PRO-Linux-latest.deb",
-                                    "sha256":  "8a76db8907da17ddbc8adf6c7a2fddf90e8d8f756c4f52a4c257f2147b3a6a77",
-                                    "size":  102526394
+                                    "sha256":  "4cf8a8e725e2a58d2e2d1c856ca2650340625bd5e7e8e08f659fffc2708a2946",
+                                    "size":  102691404
                                 },
                    "linuxPacman":  {
                                        "fileName":  "Video-Studio-PRO-Linux-latest.pacman",
                                        "url":  "https://github.com/anhviet-key/video-studio-file/releases/download/v1.0.1/Video-Studio-PRO-Linux-latest.pacman",
-                                       "sha256":  "abd867d3c86e4c147271f9aeaaa3ad4b37bb4b349eb2bc3b1bbff6d9d170a009",
-                                       "size":  102300556
+                                       "sha256":  "108eea894a9ae07185e51d08b809bd3c9ab7f80ce1632891a8acc7476bbc2a0d",
+                                       "size":  102811476
                                    },
                    "linuxArch":  {
                                      "fileName":  "Video-Studio-PRO-Linux-latest.pkg.tar.xz",
                                      "url":  "https://github.com/anhviet-key/video-studio-file/releases/download/v1.0.1/Video-Studio-PRO-Linux-latest.pkg.tar.xz",
-                                     "sha256":  "abd867d3c86e4c147271f9aeaaa3ad4b37bb4b349eb2bc3b1bbff6d9d170a009",
-                                     "size":  102300556
+                                     "sha256":  "108eea894a9ae07185e51d08b809bd3c9ab7f80ce1632891a8acc7476bbc2a0d",
+                                     "size":  102811476
                                  },
                    "latestYml":  {
                                      "fileName":  "latest.yml",
                                      "url":  "https://github.com/anhviet-key/video-studio-file/releases/download/v1.0.1/latest.yml",
-                                     "sha256":  "b0fbd463481f9707a14462668496e58bb88ec67aa5b33b1c610b5db7f365839b",
+                                     "sha256":  "cbfbb777b0b223970670afd9215adeb40f14f1c7dccb2099768a3c9310ef2201",
                                      "size":  361
                                  }
                }
