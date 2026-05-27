@@ -1,0 +1,7 @@
+﻿# Keep release repository small. Binary installers belong in GitHub Releases, not in git history.
+*.exe -text
+*.AppImage -text
+*.deb -text
+*.pacman -text
+*.pkg.tar.xz -text
+*.blockmap -text
