@@ -1,8 +1,9 @@
-﻿{
+{
     "version":  "1.0.1",
     "channel":  "latest",
     "publishedAt":  "2026-05-28T01:01:58.4463518Z",
     "releaseUrl":  "https://github.com/anhviet-key/video-studio-file/releases/tag/v1.0.1",
+    "runtimeAssetsUrl":  "https://raw.githubusercontent.com/anhviet-key/video-studio-file/main/runtime-assets.json",
     "notes":  "Fixes Linux packaged native dependencies for sharp/libvips, avoids compiler-only pyopenjtalk during offline voice install, and allows bundled Qwen Local AI translation without external API keys. Rebuilds Windows, AppImage, deb, and pacman assets.",
     "assets":  {
                    "windows":  {

@@ -1,7 +1,260 @@
 {
-    "version":  "1.0.1",
-    "updatedAt":  "2026-05-27T15:22:09.7702637Z",
-    "assets":  {
-
-               }
+  "schemaVersion": 2,
+  "updatedAt": "2026-05-28T00:00:00Z",
+  "notes": "Primary runtime/model mirror for Video Studio PRO. App update manifests and installer assets remain on GitHub.",
+  "modelMirror": {
+    "repoId": "autotools/ai_video_studio",
+    "treeUrl": "https://huggingface.co/autotools/ai_video_studio/tree/main",
+    "baseUrl": "https://huggingface.co/autotools/ai_video_studio/resolve/main"
+  },
+  "updateChannel": {
+    "repository": "anhviet-key/video-studio-file",
+    "manifestUrl": "https://raw.githubusercontent.com/anhviet-key/video-studio-file/main/update.json",
+    "runtimeAssetsUrl": "https://raw.githubusercontent.com/anhviet-key/video-studio-file/main/runtime-assets.json"
+  },
+  "assets": {
+    "kokoro.voices": {
+      "displayName": "Kokoro multilingual voice index",
+      "fileName": "voices-v1.0.bin",
+      "localPathHint": "runtime/Auto Movie Reviewer/models/voices-v1.0.bin",
+      "urls": [
+        "https://huggingface.co/autotools/ai_video_studio/resolve/main/runtime/Auto%20Movie%20Reviewer/models/voices-v1.0.bin?download=true",
+        "https://raw.githubusercontent.com/anhviet-key/update_AV/main/assets/models/voices-v1.0.bin",
+        "https://github.com/thewh1teagle/kokoro-onnx/releases/download/model-files-v1.0/voices-v1.0.bin"
+      ]
+    },
+    "kokoro.onnx.fp32": {
+      "displayName": "Kokoro ONNX FP32",
+      "fileName": "model.onnx",
+      "localPathHint": "runtime/local-ai/models/kokoro-82m-v1.0-onnx/onnx/model.onnx",
+      "urls": [
+        "https://huggingface.co/autotools/ai_video_studio/resolve/main/runtime/local-ai/models/kokoro-82m-v1.0-onnx/onnx/model.onnx?download=true",
+        "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/resolve/main/onnx/model.onnx?download=true"
+      ]
+    },
+    "kokoro.onnx.fp16": {
+      "displayName": "Kokoro ONNX FP16",
+      "fileName": "model_fp16.onnx",
+      "localPathHint": "runtime/local-ai/models/kokoro-82m-v1.0-onnx/onnx/model_fp16.onnx",
+      "urls": [
+        "https://huggingface.co/autotools/ai_video_studio/resolve/main/runtime/local-ai/models/kokoro-82m-v1.0-onnx/onnx/model_fp16.onnx?download=true",
+        "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/resolve/main/onnx/model_fp16.onnx?download=true"
+      ]
+    },
+    "kokoro.onnx.q8": {
+      "displayName": "Kokoro ONNX Q8F16",
+      "fileName": "model_q8f16.onnx",
+      "localPathHint": "runtime/local-ai/models/kokoro-82m-v1.0-onnx/onnx/model_q8f16.onnx",
+      "urls": [
+        "https://huggingface.co/autotools/ai_video_studio/resolve/main/runtime/local-ai/models/kokoro-82m-v1.0-onnx/onnx/model_q8f16.onnx?download=true",
+        "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/resolve/main/onnx/model_q8f16.onnx?download=true"
+      ]
+    },
+    "kokoro.onnx.q4": {
+      "displayName": "Kokoro ONNX Q4",
+      "fileName": "model_q4.onnx",
+      "localPathHint": "runtime/local-ai/models/kokoro-82m-v1.0-onnx/onnx/model_q4.onnx",
+      "urls": [
+        "https://huggingface.co/autotools/ai_video_studio/resolve/main/runtime/local-ai/models/kokoro-82m-v1.0-onnx/onnx/model_q4.onnx?download=true",
+        "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/resolve/main/onnx/model_q4.onnx?download=true"
+      ]
+    },
+    "kokoro.onnx.q4f16": {
+      "displayName": "Kokoro ONNX Q4F16",
+      "fileName": "model_q4f16.onnx",
+      "localPathHint": "runtime/local-ai/models/kokoro-82m-v1.0-onnx/onnx/model_q4f16.onnx",
+      "urls": [
+        "https://huggingface.co/autotools/ai_video_studio/resolve/main/runtime/local-ai/models/kokoro-82m-v1.0-onnx/onnx/model_q4f16.onnx?download=true",
+        "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/resolve/main/onnx/model_q4f16.onnx?download=true"
+      ]
+    },
+    "kokoro.config.json": {
+      "displayName": "Kokoro config",
+      "fileName": "config.json",
+      "localPathHint": "runtime/local-ai/models/kokoro-82m-v1.0-onnx/config.json",
+      "urls": [
+        "https://huggingface.co/autotools/ai_video_studio/resolve/main/runtime/local-ai/models/kokoro-82m-v1.0-onnx/config.json?download=true",
+        "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/resolve/main/config.json?download=true"
+      ]
+    },
+    "kokoro.tokenizer.json": {
+      "displayName": "Kokoro tokenizer",
+      "fileName": "tokenizer.json",
+      "localPathHint": "runtime/local-ai/models/kokoro-82m-v1.0-onnx/tokenizer.json",
+      "urls": [
+        "https://huggingface.co/autotools/ai_video_studio/resolve/main/runtime/local-ai/models/kokoro-82m-v1.0-onnx/tokenizer.json?download=true",
+        "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/resolve/main/tokenizer.json?download=true"
+      ]
+    },
+    "kokoro.tokenizer_config.json": {
+      "displayName": "Kokoro tokenizer config",
+      "fileName": "tokenizer_config.json",
+      "localPathHint": "runtime/local-ai/models/kokoro-82m-v1.0-onnx/tokenizer_config.json",
+      "urls": [
+        "https://huggingface.co/autotools/ai_video_studio/resolve/main/runtime/local-ai/models/kokoro-82m-v1.0-onnx/tokenizer_config.json?download=true",
+        "https://huggingface.co/onnx-community/Kokoro-82M-v1.0-ONNX/resolve/main/tokenizer_config.json?download=true"
+      ]
+    },
+    "vieneu.model.classic": {
+      "displayName": "VieNeu TTS classic GGUF",
+      "fileName": "VieNeu-TTS-0.3B-Q4_K_M.gguf",
+      "localPathHint": "runtime/vieneu-python/hf-home/hub/models--pnnbao-ump--VieNeu-TTS-0.3B",
+      "urls": [
+        "https://huggingface.co/autotools/ai_video_studio/resolve/main/runtime/vieneu-python/hf-home/hub/models--pnnbao-ump--VieNeu-TTS-0.3B/snapshots/4c4056e33bea543dd62115abc84c1612be8166c9/VieNeu-TTS-0.3B-Q4_K_M.gguf?download=true",
+        "https://huggingface.co/pnnbao-ump/VieNeu-TTS-0.3B/resolve/main/VieNeu-TTS-0.3B-Q4_K_M.gguf?download=true"
+      ]
+    },
+    "vieneu.model.v2": {
+      "displayName": "VieNeu TTS v2 GGUF",
+      "fileName": "VieNeu-TTS-v2-Q4-K-M.gguf",
+      "localPathHint": "runtime/vieneu-python/hf-home/hub/models--pnnbao-ump--VieNeu-TTS-0.3B",
+      "urls": [
+        "https://huggingface.co/autotools/ai_video_studio/resolve/main/runtime/vieneu-python/hf-home/hub/models--pnnbao-ump--VieNeu-TTS-0.3B/snapshots/4c4056e33bea543dd62115abc84c1612be8166c9/VieNeu-TTS-v2-Q4-K-M.gguf?download=true",
+        "https://huggingface.co/pnnbao-ump/VieNeu-TTS-0.3B/resolve/main/VieNeu-TTS-v2-Q4-K-M.gguf?download=true"
+      ]
+    },
+    "vieneu.voices.json": {
+      "displayName": "VieNeu preset voice metadata",
+      "fileName": "voices.json",
+      "localPathHint": "runtime/vieneu-python/hf-home/hub/models--pnnbao-ump--VieNeu-TTS-0.3B",
+      "urls": [
+        "https://huggingface.co/autotools/ai_video_studio/resolve/main/runtime/vieneu-python/hf-home/hub/models--pnnbao-ump--VieNeu-TTS-0.3B/snapshots/4c4056e33bea543dd62115abc84c1612be8166c9/voices.json?download=true",
+        "https://huggingface.co/pnnbao-ump/VieNeu-TTS-0.3B/resolve/main/voices.json?download=true"
+      ]
+    },
+    "local-ai.Qwen2.5-1.5B-Instruct-Q4_K_S.gguf": {
+      "displayName": "Local AI Qwen Q4_K_S",
+      "fileName": "Qwen2.5-1.5B-Instruct-Q4_K_S.gguf",
+      "urls": [
+        "https://huggingface.co/autotools/ai_video_studio/resolve/main/runtime/local-ai/models/Qwen2.5-1.5B-Instruct-Q4_K_S.gguf?download=true",
+        "https://huggingface.co/bartowski/Qwen2.5-1.5B-Instruct-GGUF/resolve/main/Qwen2.5-1.5B-Instruct-Q4_K_S.gguf?download=true",
+        "https://www.modelscope.cn/models/bartowski/Qwen2.5-1.5B-Instruct-GGUF/resolve/master/Qwen2.5-1.5B-Instruct-Q4_K_S.gguf"
+      ]
+    },
+    "local-ai.Qwen2.5-1.5B-Instruct-Q4_K_M.gguf": {
+      "displayName": "Local AI Qwen Q4_K_M",
+      "fileName": "Qwen2.5-1.5B-Instruct-Q4_K_M.gguf",
+      "urls": [
+        "https://huggingface.co/autotools/ai_video_studio/resolve/main/runtime/local-ai/models/Qwen2.5-1.5B-Instruct-Q4_K_M.gguf?download=true",
+        "https://huggingface.co/bartowski/Qwen2.5-1.5B-Instruct-GGUF/resolve/main/Qwen2.5-1.5B-Instruct-Q4_K_M.gguf?download=true",
+        "https://www.modelscope.cn/models/bartowski/Qwen2.5-1.5B-Instruct-GGUF/resolve/master/Qwen2.5-1.5B-Instruct-Q4_K_M.gguf"
+      ]
+    },
+    "local-ai.Qwen2.5-1.5B-Instruct-Q4_K_L.gguf": {
+      "displayName": "Local AI Qwen Q4_K_L",
+      "fileName": "Qwen2.5-1.5B-Instruct-Q4_K_L.gguf",
+      "urls": [
+        "https://huggingface.co/autotools/ai_video_studio/resolve/main/runtime/local-ai/models/Qwen2.5-1.5B-Instruct-Q4_K_L.gguf?download=true",
+        "https://huggingface.co/bartowski/Qwen2.5-1.5B-Instruct-GGUF/resolve/main/Qwen2.5-1.5B-Instruct-Q4_K_L.gguf?download=true",
+        "https://www.modelscope.cn/models/bartowski/Qwen2.5-1.5B-Instruct-GGUF/resolve/master/Qwen2.5-1.5B-Instruct-Q4_K_L.gguf"
+      ]
+    },
+    "local-ai.Qwen2.5-1.5B-Instruct-Q5_K_M.gguf": {
+      "displayName": "Local AI Qwen Q5_K_M",
+      "fileName": "Qwen2.5-1.5B-Instruct-Q5_K_M.gguf",
+      "urls": [
+        "https://huggingface.co/autotools/ai_video_studio/resolve/main/runtime/local-ai/models/Qwen2.5-1.5B-Instruct-Q5_K_M.gguf?download=true",
+        "https://huggingface.co/bartowski/Qwen2.5-1.5B-Instruct-GGUF/resolve/main/Qwen2.5-1.5B-Instruct-Q5_K_M.gguf?download=true",
+        "https://www.modelscope.cn/models/bartowski/Qwen2.5-1.5B-Instruct-GGUF/resolve/master/Qwen2.5-1.5B-Instruct-Q5_K_M.gguf"
+      ]
+    },
+    "local-ai.Qwen2.5-1.5B-Instruct-Q5_K_L.gguf": {
+      "displayName": "Local AI Qwen Q5_K_L",
+      "fileName": "Qwen2.5-1.5B-Instruct-Q5_K_L.gguf",
+      "urls": [
+        "https://huggingface.co/autotools/ai_video_studio/resolve/main/runtime/local-ai/models/Qwen2.5-1.5B-Instruct-Q5_K_L.gguf?download=true",
+        "https://huggingface.co/bartowski/Qwen2.5-1.5B-Instruct-GGUF/resolve/main/Qwen2.5-1.5B-Instruct-Q5_K_L.gguf?download=true",
+        "https://www.modelscope.cn/models/bartowski/Qwen2.5-1.5B-Instruct-GGUF/resolve/master/Qwen2.5-1.5B-Instruct-Q5_K_L.gguf"
+      ]
+    },
+    "local-ai.Qwen2.5-1.5B-Instruct-Q6_K.gguf": {
+      "displayName": "Local AI Qwen Q6_K",
+      "fileName": "Qwen2.5-1.5B-Instruct-Q6_K.gguf",
+      "urls": [
+        "https://huggingface.co/autotools/ai_video_studio/resolve/main/runtime/local-ai/models/Qwen2.5-1.5B-Instruct-Q6_K.gguf?download=true",
+        "https://huggingface.co/bartowski/Qwen2.5-1.5B-Instruct-GGUF/resolve/main/Qwen2.5-1.5B-Instruct-Q6_K.gguf?download=true",
+        "https://www.modelscope.cn/models/bartowski/Qwen2.5-1.5B-Instruct-GGUF/resolve/master/Qwen2.5-1.5B-Instruct-Q6_K.gguf"
+      ]
+    },
+    "local-ai.Qwen2.5-1.5B-Instruct-Q6_K_L.gguf": {
+      "displayName": "Local AI Qwen Q6_K_L",
+      "fileName": "Qwen2.5-1.5B-Instruct-Q6_K_L.gguf",
+      "urls": [
+        "https://huggingface.co/autotools/ai_video_studio/resolve/main/runtime/local-ai/models/Qwen2.5-1.5B-Instruct-Q6_K_L.gguf?download=true",
+        "https://huggingface.co/bartowski/Qwen2.5-1.5B-Instruct-GGUF/resolve/main/Qwen2.5-1.5B-Instruct-Q6_K_L.gguf?download=true",
+        "https://www.modelscope.cn/models/bartowski/Qwen2.5-1.5B-Instruct-GGUF/resolve/master/Qwen2.5-1.5B-Instruct-Q6_K_L.gguf"
+      ]
+    },
+    "kokoclone.model/kokoro.onnx": {
+      "displayName": "KokoClone Kokoro ONNX",
+      "fileName": "kokoro.onnx",
+      "localPathHint": "runtime/kokoclone-python/kokoclone-source/model/kokoro.onnx",
+      "urls": [
+        "https://huggingface.co/autotools/ai_video_studio/resolve/main/runtime/kokoclone-python/kokoclone-source/model/kokoro.onnx?download=true",
+        "https://huggingface.co/spaces/PatnaikAshish/kokoclone/resolve/main/model/kokoro.onnx?download=true"
+      ]
+    },
+    "kokoclone.voice/voices-v1.0.bin": {
+      "displayName": "KokoClone voice pack",
+      "fileName": "voices-v1.0.bin",
+      "localPathHint": "runtime/kokoclone-python/kokoclone-source/voice/voices-v1.0.bin",
+      "urls": [
+        "https://huggingface.co/autotools/ai_video_studio/resolve/main/runtime/kokoclone-python/kokoclone-source/voice/voices-v1.0.bin?download=true",
+        "https://huggingface.co/spaces/PatnaikAshish/kokoclone/resolve/main/voice/voices-v1.0.bin?download=true"
+      ]
+    },
+    "omnivoice.vip.onnx.llm": {
+      "displayName": "Omni VIP ONNX LLM",
+      "fileName": "llm_quantized.onnx",
+      "localPathHint": "runtime/local-ai/models/omnivoice-vip-onnx/llm_quantized.onnx",
+      "urls": [
+        "https://huggingface.co/autotools/ai_video_studio/resolve/main/runtime/local-ai/models/omnivoice-vip-onnx/llm_quantized.onnx?download=true"
+      ]
+    },
+    "omnivoice.vip.onnx.embeddings": {
+      "displayName": "Omni VIP ONNX embeddings",
+      "fileName": "embeddings_quantized.onnx",
+      "localPathHint": "runtime/local-ai/models/omnivoice-vip-onnx/embeddings_quantized.onnx",
+      "urls": [
+        "https://huggingface.co/autotools/ai_video_studio/resolve/main/runtime/local-ai/models/omnivoice-vip-onnx/embeddings_quantized.onnx?download=true"
+      ]
+    },
+    "omnivoice.vip.onnx.audio_heads": {
+      "displayName": "Omni VIP ONNX audio heads",
+      "fileName": "audio_heads_quantized.onnx",
+      "localPathHint": "runtime/local-ai/models/omnivoice-vip-onnx/audio_heads_quantized.onnx",
+      "urls": [
+        "https://huggingface.co/autotools/ai_video_studio/resolve/main/runtime/local-ai/models/omnivoice-vip-onnx/audio_heads_quantized.onnx?download=true"
+      ]
+    },
+    "omnivoice.official.model": {
+      "displayName": "Official OmniVoice model cache",
+      "fileName": "model.safetensors",
+      "localPathHint": "runtime/omnivoice-python/hf-home/hub/models--k2-fsa--OmniVoice",
+      "urls": [
+        "https://huggingface.co/autotools/ai_video_studio/resolve/main/runtime/omnivoice-python/hf-home/hub/models--k2-fsa--OmniVoice/snapshots/999c332499c708b116876ff5fe1aa5dd15f422ce/model.safetensors?download=true",
+        "https://huggingface.co/k2-fsa/OmniVoice/resolve/main/model.safetensors?download=true"
+      ]
+    }
+  },
+  "folderMirrors": {
+    "kokoclone": "https://huggingface.co/autotools/ai_video_studio/tree/main/runtime/kokoclone-python",
+    "omnivoiceOfficial": "https://huggingface.co/autotools/ai_video_studio/tree/main/runtime/omnivoice-python",
+    "omnivoiceVipOnnx": "https://huggingface.co/autotools/ai_video_studio/tree/main/runtime/local-ai/models/omnivoice-vip-onnx",
+    "vieneu": "https://huggingface.co/autotools/ai_video_studio/tree/main/runtime/vieneu-python/hf-home",
+    "whisper": "https://huggingface.co/autotools/ai_video_studio/tree/main/runtime/whisper-python/hf-home",
+    "reviewerModels": "https://huggingface.co/autotools/ai_video_studio/tree/main/runtime/Auto%20Movie%20Reviewer/models"
+  },
+  "fallbackPolicy": {
+    "primary": "autotools/ai_video_studio",
+    "fallbacks": [
+      "onnx-community/Kokoro-82M-v1.0-ONNX",
+      "bartowski/Qwen2.5-1.5B-Instruct-GGUF",
+      "pnnbao-ump/VieNeu-TTS-0.3B",
+      "Systran/faster-whisper-*",
+      "PatnaikAshish/kokoclone",
+      "k2-fsa/OmniVoice",
+      "github.com/anhviet-key/update_AV recovery asset"
+    ]
+  }
 }
