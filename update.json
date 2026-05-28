@@ -1,45 +1,51 @@
 ﻿{
     "version":  "1.0.1",
     "channel":  "latest",
-    "publishedAt":  "2026-05-28T03:15:26.2258716Z",
+    "publishedAt":  "2026-05-28T01:01:58.4463518Z",
     "releaseUrl":  "https://github.com/anhviet-key/video-studio-file/releases/tag/v1.0.1",
-    "notes":  "Fixes Linux backend startup/network connection by launching the unpacked backend with packaged runtime dependencies. Rebuilds Windows, AppImage, deb, and pacman assets.",
+    "notes":  "Fixes Linux packaged native dependencies for sharp/libvips, avoids compiler-only pyopenjtalk during offline voice install, and allows bundled Qwen Local AI translation without external API keys. Rebuilds Windows, AppImage, deb, and pacman assets.",
     "assets":  {
                    "windows":  {
                                    "name":  "Video-Studio-PRO-Setup-1.0.1.exe",
-                                   "size":  521986626,
-                                   "sha256":  "36c473659629fc5ca3c33be9f570a7625b20fdc5d4e6ae3c83b01ae525e1ff5a",
+                                   "size":  522009686,
+                                   "sha256":  "520d78d7ab88babb112c67f76bb7279af42247b9950f8002cc9479cdfe78c4bb",
                                    "url":  "https://github.com/anhviet-key/video-studio-file/releases/download/v1.0.1/Video-Studio-PRO-Setup-1.0.1.exe"
                                },
                    "windowsBlockMap":  {
                                            "name":  "Video-Studio-PRO-Setup-1.0.1.exe.blockmap",
-                                           "size":  529912,
-                                           "sha256":  "fa28d0ac2b58ee2ecfced00fc9b7f1275bf982f40340bd5c50e30f07cbdbd9a7",
+                                           "size":  530259,
+                                           "sha256":  "d41e026813b3221a0c9ddc94e48207bcb5c859cec5becd9e0f3781a77a1ad463",
                                            "url":  "https://github.com/anhviet-key/video-studio-file/releases/download/v1.0.1/Video-Studio-PRO-Setup-1.0.1.exe.blockmap"
                                        },
                    "linuxAppImage":  {
                                          "name":  "Video-Studio-PRO-Linux-latest.AppImage",
-                                         "size":  888206283,
-                                         "sha256":  "f5e1519f630feedc95467f46308879cac89a20f04df713de01dab4044826d7bd",
+                                         "size":  888209426,
+                                         "sha256":  "147aebae30bfcb0c5b17e22de83c1583c22d0c1fa82e67316d3e4c796adf7808",
                                          "url":  "https://github.com/anhviet-key/video-studio-file/releases/download/v1.0.1/Video-Studio-PRO-Linux-latest.AppImage"
                                      },
                    "linuxDeb":  {
                                     "name":  "Video-Studio-PRO-Linux-latest.deb",
-                                    "size":  969791558,
-                                    "sha256":  "1988dce31d09e8cf264a990660c2ad3f7ea16478ce563aa1c88dd5579aa0f036",
+                                    "size":  969794304,
+                                    "sha256":  "deeb1ef1983755cbeedc5de5902e0abbef91f29c48fa0c1604d023cffba2037e",
                                     "url":  "https://github.com/anhviet-key/video-studio-file/releases/download/v1.0.1/Video-Studio-PRO-Linux-latest.deb"
                                 },
                    "linuxPacman":  {
                                        "name":  "Video-Studio-PRO-Linux-latest.pacman",
-                                       "size":  742151032,
-                                       "sha256":  "2919d71a20d672a63af48c4835db2dac6e2b39a3e924d1fda7215893b9e946c1",
+                                       "size":  742152176,
+                                       "sha256":  "8f9088a8fe8c64c1f3c62ce672167f4a67e89f907a317b090d5e74dc26320870",
                                        "url":  "https://github.com/anhviet-key/video-studio-file/releases/download/v1.0.1/Video-Studio-PRO-Linux-latest.pacman"
                                    },
                    "linuxPkgTarXz":  {
                                          "name":  "Video-Studio-PRO-Linux-latest.pkg.tar.xz",
-                                         "size":  742151032,
-                                         "sha256":  "2919d71a20d672a63af48c4835db2dac6e2b39a3e924d1fda7215893b9e946c1",
+                                         "size":  742152176,
+                                         "sha256":  "8f9088a8fe8c64c1f3c62ce672167f4a67e89f907a317b090d5e74dc26320870",
                                          "url":  "https://github.com/anhviet-key/video-studio-file/releases/download/v1.0.1/Video-Studio-PRO-Linux-latest.pkg.tar.xz"
-                                     }
+                                     },
+                   "latestYml":  {
+                                     "name":  "latest.yml",
+                                     "size":  361,
+                                     "sha256":  "c18bba6e04abc59f10e187b8db5afe5fd18e1398cd28be0e613fbabe0e524793",
+                                     "url":  "https://github.com/anhviet-key/video-studio-file/releases/download/v1.0.1/latest.yml"
+                                 }
                }
 }
