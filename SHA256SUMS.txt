@@ -1,0 +1,7 @@
+﻿36c473659629fc5ca3c33be9f570a7625b20fdc5d4e6ae3c83b01ae525e1ff5a  Video-Studio-PRO-Setup-1.0.1.exe
+fa28d0ac2b58ee2ecfced00fc9b7f1275bf982f40340bd5c50e30f07cbdbd9a7  Video-Studio-PRO-Setup-1.0.1.exe.blockmap
+f5e1519f630feedc95467f46308879cac89a20f04df713de01dab4044826d7bd  Video-Studio-PRO-Linux-latest.AppImage
+1988dce31d09e8cf264a990660c2ad3f7ea16478ce563aa1c88dd5579aa0f036  Video-Studio-PRO-Linux-latest.deb
+2919d71a20d672a63af48c4835db2dac6e2b39a3e924d1fda7215893b9e946c1  Video-Studio-PRO-Linux-latest.pacman
+2919d71a20d672a63af48c4835db2dac6e2b39a3e924d1fda7215893b9e946c1  Video-Studio-PRO-Linux-latest.pkg.tar.xz
+b5969fb2b0f8ec4ef87adfa835faa2689a70b3b87038483880ce18aa34746b21  latest.yml
