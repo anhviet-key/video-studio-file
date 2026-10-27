@@ -1,0 +1,15 @@
+{
+  "announcements": [
+    {
+      "id": "notice-v1010-launch",
+      "title": "🎉 Cập nhật v1.0.10: Mở 17 giọng đọc AI phòng thu & Tối ưu giao diện!",
+      "content": "Phiên bản 1.0.10 chính thức ra mắt với 17 giọng đọc VieNeu mở rộng cực kỳ tự nhiên. Gói Plus mở 7 giọng, gói Pro và Vĩnh viễn mở trọn bộ 17 giọng mới. Hãy vào Voice Studio để nghe thử và trải nghiệm ngay!",
+      "type": "update",
+      "badge": "MỚI",
+      "date": "2026-10-27T08:00:00.000Z",
+      "link": "https://github.com/anhviet-key/video-studio-file",
+      "linkText": "Xem hướng dẫn",
+      "showToast": true
+    }
+  ]
+}
