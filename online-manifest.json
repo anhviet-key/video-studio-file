@@ -1,11 +1,18 @@
 {
   "version": "1.0.10",
-  "generatedAt": "2026-10-27T09:45:07.571Z",
-  "packageFileName": "AI-Video-Studio-Pro-1.0.10-package.zip",
-  "packageUrl": "https://github.com/anhviet-key/video-studio-file/releases/download/v1.0.10/AI-Video-Studio-Pro-1.0.10-package.zip",
-  "fallbackUrls": [
-    "https://cdn.jsdelivr.net/gh/anhviet-key/video-studio-file@v1.0.10/AI-Video-Studio-Pro-1.0.10-package.zip"
-  ],
-  "sizeBytes": 2362400019,
-  "sha256": "1ee39a66f4d648dd8ac4f2b2ee53c5da91c2baeff87b0b31bd4d1e63180fb99e"
+  "generatedAt": "2026-10-27T15:17:16.042Z",
+  "packages": [
+    {
+      "name": "AI-Video-Studio-Pro-1.0.10-part1-app.zip",
+      "url": "https://github.com/anhviet-key/video-studio-file/releases/download/v1.0.10/AI-Video-Studio-Pro-1.0.10-part1-app.zip",
+      "sizeBytes": 629557833,
+      "sha256": "83b44dd3fb506bb2e66ea08e4e5a29d5e2f6835a38e1d6b18cf3d4d4cc12b884"
+    },
+    {
+      "name": "AI-Video-Studio-Pro-1.0.10-part2-runtime.zip",
+      "url": "https://github.com/anhviet-key/video-studio-file/releases/download/v1.0.10/AI-Video-Studio-Pro-1.0.10-part2-runtime.zip",
+      "sizeBytes": 1305982090,
+      "sha256": "ead1843adfc5efe76069c5f699fb598a910dbc8d82bbfc4a54bb0c795e9540e5"
+    }
+  ]
 }
