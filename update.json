@@ -1,7 +1,7 @@
 {
   "version": "1.0.11",
   "channel": "latest",
-  "publishedAt": "2026-10-31T08:25:00.000Z",
+  "publishedAt": "2026-10-31T13:25:00.000Z",
   "releaseUrl": "https://github.com/anhviet-key/video-studio-file/releases",
   "runtimeAssetsUrl": "https://raw.githubusercontent.com/anhviet-key/video-studio-file/main/runtime-assets.json",
   "notes": "Cập nhật v1.0.11: Nâng cấp timeline playback, cải thiện âm thanh lồng tiếng AI và tối ưu hóa giao diện.",
@@ -11,7 +11,7 @@
       "fileName": "AI-Video-Studio-Pro-Online-Setup.exe",
       "size": 197632,
       "sizeBytes": 197632,
-      "sha256": "61464bc2bf7f9b399cc282949b8a08dd308adef919b2392f77ecf59a4763fb6c",
+      "sha256": "acbf7eef7a4f503ad736cf3028c1dfc7e75d1af572cf29f485e0a131f0d670e9",
       "signatureRequired": false,
       "url": "https://github.com/anhviet-key/video-studio-file/raw/main/AI-Video-Studio-Pro-Online-Setup.exe",
       "x64": {
@@ -19,7 +19,7 @@
         "fileName": "AI-Video-Studio-Pro-Online-Setup.exe",
         "size": 197632,
         "sizeBytes": 197632,
-        "sha256": "61464bc2bf7f9b399cc282949b8a08dd308adef919b2392f77ecf59a4763fb6c",
+        "sha256": "acbf7eef7a4f503ad736cf3028c1dfc7e75d1af572cf29f485e0a131f0d670e9",
         "signatureRequired": false,
         "url": "https://github.com/anhviet-key/video-studio-file/raw/main/AI-Video-Studio-Pro-Online-Setup.exe"
       }
