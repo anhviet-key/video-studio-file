@@ -1,6 +1,17 @@
 {
   "announcements": [
     {
+      "id": "notice-v1011-update-test",
+      "title": "🎉 Cập nhật v1.0.11: Đã có bản cập nhật mới thử nghiệm!",
+      "content": "Bản cập nhật v1.0.11 đã sẵn sàng với nhiều cải tiến: tối ưu hóa timeline playback, bổ sung tính năng mix âm thanh và sửa lỗi giao diện. Hãy bấm Cập nhật ngay bên dưới để thử nghiệm cập nhật!",
+      "type": "update",
+      "badge": "MỚI",
+      "date": "2026-10-31T08:25:00.000Z",
+      "link": "https://github.com/anhviet-key/video-studio-file/releases",
+      "linkText": "Cập nhật ngay",
+      "showToast": true
+    },
+    {
       "id": "notice-v1010-launch",
       "title": "🎉 Cập nhật v1.0.10: Mở 17 giọng đọc AI phòng thu & Tối ưu giao diện!",
       "content": "Phiên bản 1.0.10 chính thức ra mắt với 17 giọng đọc VieNeu mở rộng cực kỳ tự nhiên. Gói Plus mở 7 giọng, gói Pro và Vĩnh viễn mở trọn bộ 17 giọng mới. Hãy vào Voice Studio để nghe thử và trải nghiệm ngay!",
@@ -9,7 +20,7 @@
       "date": "2026-10-27T08:00:00.000Z",
       "link": "https://github.com/anhviet-key/video-studio-file",
       "linkText": "Xem hướng dẫn",
-      "showToast": true
+      "showToast": false
     }
   ]
 }
