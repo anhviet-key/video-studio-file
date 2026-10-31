@@ -1,18 +1,18 @@
 {
   "version": "1.0.11",
-  "generatedAt": "2026-10-31T13:25:12.103Z",
+  "generatedAt": "2026-10-31T15:14:02.609Z",
   "packages": [
     {
       "name": "AI-Video-Studio-Pro-1.0.11-part1-app.zip",
       "url": "https://github.com/anhviet-key/video-studio-file/releases/download/v1.0.11/AI-Video-Studio-Pro-1.0.11-part1-app.zip",
-      "sizeBytes": 629598264,
-      "sha256": "63106f703a15676dabe00faf7cd552d725196b075bde46127d652257dd89e6a4"
+      "sizeBytes": 629597515,
+      "sha256": "9a8f98047d6271eb0b108e85a77267c728ae024f6a5dd17b6b0420fa850a19ac"
     },
     {
       "name": "AI-Video-Studio-Pro-1.0.11-part2-runtime.zip",
       "url": "https://github.com/anhviet-key/video-studio-file/releases/download/v1.0.11/AI-Video-Studio-Pro-1.0.11-part2-runtime.zip",
-      "sizeBytes": 1140874778,
-      "sha256": "febdf83d3b73a9ec2c6ec084e26ef7c9f0ca0b03a7c1d8360bedc7d00ef840c2"
+      "sizeBytes": 1307075438,
+      "sha256": "5ff4437f71edf66854be1618c9588a218d91cf64fc9ce4d28ead6244452a8dea"
     }
   ]
 }
