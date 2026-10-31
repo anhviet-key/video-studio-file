@@ -1,16 +1,28 @@
 {
-    "version":  "1.0.11",
-    "channel":  "latest",
-    "publishedAt":  "2026-10-31T08:25:00.000Z",
-    "releaseUrl":  "https://github.com/anhviet-key/video-studio-file/releases",
-    "runtimeAssetsUrl":  "https://raw.githubusercontent.com/anhviet-key/video-studio-file/main/runtime-assets.json",
-    "notes":  "Cập nhật v1.0.11: Nâng cấp luồng timeline playback, cải thiện âm thanh lồng tiếng AI và tối ưu hóa giao diện người dùng.",
-    "assets":  {
-                   "windows":  {
-                                   "name":  "AI-Video-Studio-Pro-Online-Setup.exe",
-                                   "size":  195072,
-                                   "sha256":  "7a97b893a671bc94b1c64df63f39f3da6ae6914ed63d4d77be483f3591ff56bb",
-                                   "url":  "https://github.com/anhviet-key/video-studio-file/releases/download/v1.0.10/AI-Video-Studio-Pro-Online-Setup.exe"
-                               }
-               }
+  "version": "1.0.11",
+  "channel": "latest",
+  "publishedAt": "2026-10-31T08:25:00.000Z",
+  "releaseUrl": "https://github.com/anhviet-key/video-studio-file/releases",
+  "runtimeAssetsUrl": "https://raw.githubusercontent.com/anhviet-key/video-studio-file/main/runtime-assets.json",
+  "notes": "Cập nhật v1.0.11: Nâng cấp timeline playback, cải thiện âm thanh lồng tiếng AI và tối ưu hóa giao diện.",
+  "assets": {
+    "windows": {
+      "name": "AI-Video-Studio-Pro-Online-Setup.exe",
+      "fileName": "AI-Video-Studio-Pro-Online-Setup.exe",
+      "size": 195072,
+      "sizeBytes": 195072,
+      "sha256": "7a97b893a671bc94b1c64df63f39f3da6ae6914ed63d4d77be483f3591ff56bb",
+      "signatureRequired": false,
+      "url": "https://github.com/anhviet-key/video-studio-file/releases/download/v1.0.10/AI-Video-Studio-Pro-Online-Setup.exe",
+      "x64": {
+        "name": "AI-Video-Studio-Pro-Online-Setup.exe",
+        "fileName": "AI-Video-Studio-Pro-Online-Setup.exe",
+        "size": 195072,
+        "sizeBytes": 195072,
+        "sha256": "7a97b893a671bc94b1c64df63f39f3da6ae6914ed63d4d77be483f3591ff56bb",
+        "signatureRequired": false,
+        "url": "https://github.com/anhviet-key/video-studio-file/releases/download/v1.0.10/AI-Video-Studio-Pro-Online-Setup.exe"
+      }
+    }
+  }
 }
