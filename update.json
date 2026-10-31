@@ -1,7 +1,7 @@
 {
   "version": "1.0.11",
   "channel": "latest",
-  "publishedAt": "2026-10-31T15:37:05.055Z",
+  "publishedAt": "2026-10-31T16:09:44.669Z",
   "releaseUrl": "https://github.com/anhviet-key/video-studio-file/releases",
   "runtimeAssetsUrl": "https://raw.githubusercontent.com/anhviet-key/video-studio-file/main/runtime-assets.json",
   "notes": "Bản cập nhật siêu tốc v1.0.11: Nâng cấp timeline playback, cải thiện âm thanh lồng tiếng AI và tối ưu hóa giao diện (chỉ tải ~2.64 MB).",
