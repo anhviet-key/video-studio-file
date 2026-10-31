@@ -9,19 +9,19 @@
     "windows": {
       "name": "AI-Video-Studio-Pro-Online-Setup.exe",
       "fileName": "AI-Video-Studio-Pro-Online-Setup.exe",
-      "size": 195072,
-      "sizeBytes": 195072,
-      "sha256": "4484757725c35588a007e72a427154752d093398fcf4cc4bca8face26acd8edc",
+      "size": 197120,
+      "sizeBytes": 197120,
+      "sha256": "af9fe4375229886a2cc6bbe2714720bcb565920f4fc57275ccf72cbec433dc4f",
       "signatureRequired": false,
-      "url": "https://github.com/anhviet-key/video-studio-file/releases/download/v1.0.10/AI-Video-Studio-Pro-Online-Setup.exe",
+      "url": "https://github.com/anhviet-key/video-studio-file/raw/main/AI-Video-Studio-Pro-Online-Setup.exe",
       "x64": {
         "name": "AI-Video-Studio-Pro-Online-Setup.exe",
         "fileName": "AI-Video-Studio-Pro-Online-Setup.exe",
-        "size": 195072,
-        "sizeBytes": 195072,
-        "sha256": "4484757725c35588a007e72a427154752d093398fcf4cc4bca8face26acd8edc",
+        "size": 197120,
+        "sizeBytes": 197120,
+        "sha256": "af9fe4375229886a2cc6bbe2714720bcb565920f4fc57275ccf72cbec433dc4f",
         "signatureRequired": false,
-        "url": "https://github.com/anhviet-key/video-studio-file/releases/download/v1.0.10/AI-Video-Studio-Pro-Online-Setup.exe"
+        "url": "https://github.com/anhviet-key/video-studio-file/raw/main/AI-Video-Studio-Pro-Online-Setup.exe"
       }
     }
   }
