@@ -1,0 +1,41 @@
+{
+  "version": "1.0.11",
+  "channel": "latest",
+  "publishedAt": "2026-10-31T16:09:44.669Z",
+  "releaseUrl": "https://github.com/anhviet-key/video-studio-file/releases",
+  "runtimeAssetsUrl": "https://raw.githubusercontent.com/anhviet-key/video-studio-file/main/runtime-assets.json",
+  "notes": "Bản cập nhật siêu tốc v1.0.11: Nâng cấp timeline playback, cải thiện âm thanh lồng tiếng AI và tối ưu hóa giao diện (chỉ tải ~2.64 MB).",
+  "assets": {
+    "windows": {
+      "name": "AI-Video-Studio-Pro-1.0.11-delta-patch.zip",
+      "fileName": "AI-Video-Studio-Pro-1.0.11-delta-patch.zip",
+      "size": 2771171,
+      "sizeBytes": 2771171,
+      "sha256": "ad2431c7081425e3185c8110b33c9a0465ed053458971b4bd5095a6778eb10c2",
+      "isDelta": true,
+      "url": "https://raw.githubusercontent.com/anhviet-key/video-studio-file/main/AI-Video-Studio-Pro-1.0.11-delta-patch.zip",
+      "signatureRequired": false,
+      "x64": {
+        "name": "AI-Video-Studio-Pro-1.0.11-delta-patch.zip",
+        "fileName": "AI-Video-Studio-Pro-1.0.11-delta-patch.zip",
+        "size": 2771171,
+        "sizeBytes": 2771171,
+        "sha256": "ad2431c7081425e3185c8110b33c9a0465ed053458971b4bd5095a6778eb10c2",
+        "isDelta": true,
+        "url": "https://raw.githubusercontent.com/anhviet-key/video-studio-file/main/AI-Video-Studio-Pro-1.0.11-delta-patch.zip",
+        "signatureRequired": false
+      },
+      "delta": {
+        "name": "AI-Video-Studio-Pro-1.0.11-delta-patch.zip",
+        "fileName": "AI-Video-Studio-Pro-1.0.11-delta-patch.zip",
+        "size": 2771171,
+        "sizeBytes": 2771171,
+        "sha256": "ad2431c7081425e3185c8110b33c9a0465ed053458971b4bd5095a6778eb10c2",
+        "isDelta": true,
+        "url": "https://raw.githubusercontent.com/anhviet-key/video-studio-file/main/AI-Video-Studio-Pro-1.0.11-delta-patch.zip",
+        "signatureRequired": false
+      }
+    }
+  },
+  "updateType": "delta"
+}

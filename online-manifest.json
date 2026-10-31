@@ -1,0 +1,27 @@
+{
+  "version": "1.0.11",
+  "generatedAt": "2026-11-01T00:15:00.000Z",
+  "packages": [
+    {
+      "name": "Part 1: Core App & Studio Interface",
+      "nameVi": "Phần 1: Ứng dụng & Giao diện cơ bản",
+      "url": "https://github.com/anhviet-key/video-studio-file/releases/download/v1.0.10/AI-Video-Studio-Pro-part1-app.zip",
+      "sizeBytes": 629596531,
+      "sha256": "f41b65e115f07b029be00e2e67f96c08e823e59dcdd91fb772901bc81c8d30f5"
+    },
+    {
+      "name": "Part 2: AI Runtime & Models",
+      "nameVi": "Phần 2: AI Runtime & Mô hình AI",
+      "url": "https://github.com/anhviet-key/video-studio-file/releases/download/v1.0.10/AI-Video-Studio-Pro-part2-runtime.zip",
+      "sizeBytes": 1307075438,
+      "sha256": "5ff4437f71edf66854be1618c9588a218d91cf64fc9ce4d28ead6244452a8dea"
+    },
+    {
+      "name": "Part 3: Latest v1.0.11 Speed Patch",
+      "nameVi": "Phần 3: Bản cập nhật siêu tốc v1.0.11",
+      "url": "https://raw.githubusercontent.com/anhviet-key/video-studio-file/main/AI-Video-Studio-Pro-1.0.11-delta-patch.zip",
+      "sizeBytes": 2771171,
+      "sha256": "ad2431c7081425e3185c8110b33c9a0465ed053458971b4bd5095a6778eb10c2"
+    }
+  ]
+}
